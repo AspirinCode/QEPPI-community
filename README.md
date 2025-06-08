@@ -16,7 +16,7 @@
 We have made it so that you can use Google Colab to calculate QEPPI from SMILES without creating your own environment.   
 If you have a lot of SMILES to calculate, please convert the SMILES to SDF files.  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ohuelab/QEPPI/blob/main/notebook/QEPPI.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AspirinCode/QEPPI-community/blob/main/notebook/QEPPI.ipynb)
 
 ## Mininal environment setup (Git clone)
 We setup it on a Mac (macOS10.15.7), but I'm sure it will run fine on other platforms such as Linux.  
