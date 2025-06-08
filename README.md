@@ -16,7 +16,7 @@ If you have a lot of SMILES to calculate, please convert the SMILES to SDF files
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AspirinCode/QEPPI-community/blob/main/notebook/QEPPI.ipynb)
 
 ## Mininal environment setup (Git clone)
-We setup it on a Mac (macOS10.15.7), but I'm sure it will run fine on other platforms such as Linux.  
+We setup it on a Linux.  
 
 ```bash
 # Python >= 3.8
