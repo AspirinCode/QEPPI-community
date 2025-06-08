@@ -60,7 +60,7 @@ You can also install QEPPI with ```pip install QEPPI```. The following sample co
 Note: some dependancies will also be installed with QEPPI module, so a clean environment is preferred!
 ```bash
 # QEPPI
-pip install QEPPI
+pip install QEPPIcommunity
 ```
 
 ```python
