@@ -31,17 +31,17 @@ pip install pandas
 
 We also confirmed that QEPPI works with Colab. (see [notebook](https://github.com/ohuelab/QEPPI/blob/main/notebook/QEPPI.ipynb))
 
-### Clone QEPPI
-Clone QEPPI repository when you are done with the setup.
+### Clone QEPPI-community
+Clone QEPPI-community repository when you are done with the setup.
 
 ```bash
-git clone https://github.com/ohuelab/QEPPI.git
+git clone https://github.com/AspirinCode/QEPPI-community.git
 ```
 
 ### Test
-Test it after git clone the QEPPI repository. If the test passes, the QEPPI calculation has been successfully performed. (We used pytest version is 6.2.2)  
+Test it after git clone the QEPPI-community repository. If the test passes, the QEPPI calculation has been successfully performed. (We used pytest version is 6.2.2)  
 ```bash
-cd QEPPI
+cd QEPPI-community
 pytest -v
 ```
 
@@ -56,7 +56,7 @@ python calc_QEPPI.py --csv PATH_TO_YOUR_COMPOUND.csv --out PATH_TO_OUTPUT.csv
 ```
 
 ## Instalation using pip install
-You can also install QEPPI with ```[https://pypi.org/project/QEPPIcommunity](https://pypi.org/project/QEPPIcommunity/)```. The following sample code is available as an implementation example.  
+You can also install QEPPI-community with ```[https://pypi.org/project/QEPPIcommunity](https://pypi.org/project/QEPPIcommunity/)```. The following sample code is available as an implementation example.  
 Note: some dependancies will also be installed with QEPPI module, so a clean environment is preferred!
 ```bash
 # QEPPI
