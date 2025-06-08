@@ -10,14 +10,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="QEPPI-community",
+    name="QEPPIcommunity",
     version=__version__,
     author="blacktanktop",
     author_email="blacktanktopme@gmail.com",
     description="Community-Maintained Version of Calculation module of QEPPI",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ohuelab/QEPPI/",
+    url="https://github.com/AspirinCode/QEPPI-community",
     license="MIT",
     packages=["QEPPI"],
     python_requires=">=3.8",
