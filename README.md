@@ -26,7 +26,7 @@ pip install numpy
 pip install pandas
 ```
 
-We also confirmed that QEPPI works with Colab. (see [notebook](https://github.com/ohuelab/QEPPI/blob/main/notebook/QEPPI.ipynb))
+We also confirmed that QEPPI works with Colab. (see [notebook](https://github.com/AspirinCode/QEPPI-community/blob/main/notebook/QEPPI.ipynb))
 
 ### Clone QEPPI-community
 Clone QEPPI-community repository when you are done with the setup.
