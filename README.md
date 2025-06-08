@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![GitHub Clones](https://img.shields.io/badge/dynamic/json?style=flat-square?color=success&label=Clones_in_14days&query=count&url=https://github.com/AspirinCode/QEPPI-community/blob/main/clone.json?raw=True&logo=github)](https://github.com/AspirinCode/QEPPI-community)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAspirinCode%2FQEPPI-community&count_bg=%238EC9EE&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=true)](https://hits.seeyoufarm.com/)
-![PyPI](https://img.shields.io/pypi/v/QEPPI?style=flat-square)
+![PyPI](https://img.shields.io/pypi/v/QEPPIcommunity?style=flat-square)
 [![Python >= 3.8](https://img.shields.io/pypi/pyversions/QEPPI.svg)](https://pypi.org/project/QEPPIcommunity/)
 [![tests](https://github.com/AspirinCode/QEPPI-community/actions/workflows/tests.yml/badge.svg)](https://github.com/AspirinCode/QEPPI-community)
 
