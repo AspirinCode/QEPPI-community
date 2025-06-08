@@ -6,7 +6,6 @@
 **Quantitative estimate index for early-stage screening of compounds targeting protein-protein interactions**
 
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-[![GitHub Clones](https://img.shields.io/badge/dynamic/json?style=flat-square?color=success&label=Clones_in_14days&query=count&url=https://github.com/AspirinCode/QEPPI-community/blob/main/clone.json?raw=True&logo=github)](https://github.com/AspirinCode/QEPPI-community/)
 ![PyPI](https://img.shields.io/pypi/v/QEPPIcommunity?style=flat-square)
 [![Python Versions](https://img.shields.io/pypi/pyversions/QEPPIcommunity.svg)](https://pypi.org/project/QEPPIcommunity/)
 
