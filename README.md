@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/7370243/135420088-f616adc8-1e92-4d9b-8b53-0b863497244d.png"  width="400px">
 </p>
 
-# QEPPI
+# QEPPI-community
 **Quantitative estimate index for early-stage screening of compounds targeting protein-protein interactions**
 
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
@@ -22,11 +22,11 @@ If you have a lot of SMILES to calculate, please convert the SMILES to SDF files
 We setup it on a Mac (macOS10.15.7), but I'm sure it will run fine on other platforms such as Linux.  
 
 ```bash
-# Python 3.7 | 3.8
+# Python >= 3.8
 # dependencies
 pip install rdkit      # >= 2025.3.2
-pip install numpy      # >= 1.19.5
-pip install pandas     # >= 1.1.5
+pip install numpy
+pip install pandas
 ```
 
 We also confirmed that QEPPI works with Colab. (see [notebook](https://github.com/ohuelab/QEPPI/blob/main/notebook/QEPPI.ipynb))
