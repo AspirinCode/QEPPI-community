@@ -39,7 +39,8 @@ git clone https://github.com/AspirinCode/QEPPI-community.git
 ```
 
 ### Test
-Test it after git clone the QEPPI-community repository. If the test passes, the QEPPI calculation has been successfully performed. (We used pytest version is 6.2.2)  
+Test it after git clone the QEPPI-community repository. If the test passes, the QEPPI calculation has been successfully performed.  
+
 ```bash
 cd QEPPI-community
 pytest -v
