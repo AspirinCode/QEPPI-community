@@ -54,7 +54,7 @@ python calc_QEPPI.py --csv PATH_TO_YOUR_COMPOUND.csv --out PATH_TO_OUTPUT.csv
 ```
 
 ## Instalation using pip install
-You can also install QEPPI-community with ```[https://pypi.org/project/QEPPIcommunity](https://pypi.org/project/QEPPIcommunity/)```. The following sample code is available as an implementation example.  
+You can also install QEPPI-community with [https://pypi.org/project/QEPPIcommunity](https://pypi.org/project/QEPPIcommunity/). The following sample code is available as an implementation example.  
 Note: some dependancies will also be installed with QEPPI module, so a clean environment is preferred!
 ```bash
 # QEPPI
