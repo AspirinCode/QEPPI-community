@@ -63,3 +63,10 @@ def test_read_qeppi_value_approx():
     ppi_mols = [mol for mol in ppi_s if mol is not None]
     for i, j in zip(ppi_mols, correct_values):
         assert q.qeppi(i) == pytest.approx(j)
+
+
+def test_get_qeppi_properties():
+    q = ppi.QEPPI_Calculator()
+    mol = next(SDMolSupplier("./compunds/test.sdf"))
+    props = ppi.get_qeppi_properties(mol)
+    assert props == q.descript(mol)
