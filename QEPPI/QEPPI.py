@@ -62,3 +62,28 @@ class QEPPI_Calculator:
             desc = self.desc_func_dict[label](mol)
             d_dict[label] = desc
         return d_dict
+
+
+def get_qeppi_properties(mol):
+    """Return descriptor values used by the QEPPI score.
+
+    Parameters
+    ----------
+    mol : rdkit.Chem.Mol
+        Molecule to compute properties for.
+
+    Returns
+    -------
+    dict
+        Mapping of descriptor labels to their calculated values.
+    """
+
+    return {
+        "MW": rdMolDescriptors.CalcExactMolWt(mol),
+        "ALOGP": Crippen.MolLogP(mol),
+        "HBD": rdMolDescriptors.CalcNumHBD(mol),
+        "HBA": rdMolDescriptors.CalcNumHBA(mol),
+        "TPSA": rdMolDescriptors.CalcTPSA(mol),
+        "ROTB": rdMolDescriptors.CalcNumRotatableBonds(mol),
+        "AROM": rdMolDescriptors.CalcNumAromaticRings(mol),
+    }
