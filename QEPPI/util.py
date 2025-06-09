@@ -1,3 +1,8 @@
+"""Utility helpers for QEPPI calculations.
+
+Sourced from `ohuelab/QEPPI` and preserved by the community edition.
+"""
+
 import numpy as np
 
 
