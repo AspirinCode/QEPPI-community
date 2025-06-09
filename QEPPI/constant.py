@@ -1,3 +1,9 @@
+"""Shared constants and descriptor functions for QEPPI.
+
+Originally taken from `ohuelab/QEPPI` and maintained as part of the
+`QEPPI-community` project.
+"""
+
 from rdkit.Chem import rdMolDescriptors, Crippen
 from rdkit import Chem
 
