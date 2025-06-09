@@ -1,3 +1,9 @@
+"""Command line interface for running QEPPI calculations.
+
+This script derives from the original `ohuelab/QEPPI` repository and is
+maintained here for community contributions.
+"""
+
 import argparse
 
 import QEPPI as ppi
