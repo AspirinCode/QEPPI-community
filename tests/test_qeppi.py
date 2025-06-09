@@ -1,3 +1,9 @@
+"""Regression tests for the community QEPPI implementation.
+
+These tests originally shipped with `ohuelab/QEPPI` and verify that the
+calculations continue to produce the same values.
+"""
+
 import pytest
 import QEPPI as ppi
 from QEPPI.constant import WEIGHT
