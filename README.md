@@ -62,18 +62,22 @@ pip install QEPPIcommunity
 ```
 
 ```python
-import QEPPI as ppi
+from QEPPI import QEPPI_Calculator, get_qeppi_properties
 from rdkit import Chem
 from rdkit.Chem import SDMolSupplier
 
-q = ppi.QEPPI_Calculator()
+q = QEPPI_Calculator()
 q.read()
 
 # SMILES
 smiles = "COC1=CC(=CC=C1NC(=O)[C@@H]1N[C@@H](CC(C)(C)C)[C@@](C#N)([C@H]1C1=CC=CC(Cl)=C1F)C1=CC=C(Cl)C=C1F)C(O)=O"
 mol = Chem.MolFromSmiles(smiles)
+props = get_qeppi_properties(mol)
+
 print(q.qeppi(mol))
+print(props)
 # 0.7862842663145835
+# {'MW': 615.1503182080002, 'ALOGP': 6.9388800000000055, 'HBD': 3, 'HBA': 5, 'TPSA': 111.45000000000002, 'ROTB': 7, 'AROM': 3}
 
 # SDF
 ppi_s = SDMolSupplier("PATH_TO_SDF/YOUR_COMPOUND.sdf")
