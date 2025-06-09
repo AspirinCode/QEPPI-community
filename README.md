@@ -41,6 +41,17 @@ Test it after git clone the QEPPI-community repository. If the test passes, the 
 ```bash
 cd QEPPI-community
 pytest -v
+
+#platform linux -- Python 3.13.2, pytest-8.4.0, pluggy-1.6.0 -- /anaconda3/envs/RDKit313/bin/python3.13
+#cachedir: .pytest_cache
+#rootdir: /QEPPI-community
+#plugins: anyio-4.6.2, cov-6.1.1
+#collected 4 items                                                                                                                                                                                                                           
+#
+#tests/test_qeppi.py::test_version PASSED                                                                                                                                                                                              [ 25%]
+#tests/test_qeppi.py::test_load_qeppi_value_approx PASSED                                                                                                                                                                              [ 50%]
+#tests/test_qeppi.py::test_read_qeppi_value_approx PASSED                                                                                                                                                                              [ 75%]
+#tests/test_qeppi.py::test_get_qeppi_properties PASSED  
 ```
 
 ## QEPPI calculation example
