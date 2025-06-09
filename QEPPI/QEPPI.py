@@ -7,6 +7,7 @@ It implements the :class:`QEPPI_Calculator` used for scoring molecules.
 
 from .util import ads
 from .constant import CHEM_LABELS, DESC_FUNC_DICT, WEIGHT
+from rdkit.Chem import rdMolDescriptors, Crippen
 
 import numpy as np
 import pickle
