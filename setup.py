@@ -1,3 +1,9 @@
+"""Package configuration for the QEPPI-community distribution.
+
+This file originates from the `ohuelab/QEPPI` project and is updated for the
+community-maintained version.
+"""
+
 import os
 from glob import glob
 from setuptools import setup
