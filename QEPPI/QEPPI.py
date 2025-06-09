@@ -1,3 +1,10 @@
+"""QEPPI score calculation utilities.
+
+This file originates from `ohuelab/QEPPI` and is maintained by the
+community at `AspirinCode/QEPPI-community`.
+It implements the :class:`QEPPI_Calculator` used for scoring molecules.
+"""
+
 from .util import ads
 from .constant import CHEM_LABELS, DESC_FUNC_DICT, WEIGHT
 
